@@ -1,0 +1,11 @@
+@keyframes scaleBig {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+.scaleBig {
+    animation: scaleBig 3s ease-in-out infinite;
+}

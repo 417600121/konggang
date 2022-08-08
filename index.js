@@ -82,6 +82,7 @@ var addStyleJs = (function (dom) {
 // addStyleJs("https://www.jq22.com/demo/jqueryCountup20161120/js/jquery.countup.min.js")
 addStyleJs("https://www.jq22.com/demo/jqueryCountup20161120/js/jquery.waypoints.min.js")
 addStyleJs("https://417600121.github.io/konggang/lib/countup.js")
+addStyleJs("https://417600121.github.io/konggang/index.css")
 $(document).ready(function () {
     const option={
         delay: 10,
@@ -101,6 +102,9 @@ $(document).ready(function () {
     $('.outputvalue-num').countUp(option)
     $('.propertyRight-num').countUp(option)
 
+    $('..bannerStyle_11 .main_image li .img_box img').each(e=>{
+        $(e).addClass("scaleBig")
+    })
     console.log($('banner_style_11_1649667969232'));
     console.log(111)
     console.log($(document))
