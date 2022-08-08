@@ -81,7 +81,7 @@ var addStyleJs = (function (dom) {
 
 // addStyleJs("https://www.jq22.com/demo/jqueryCountup20161120/js/jquery.countup.min.js")
 addStyleJs("https://www.jq22.com/demo/jqueryCountup20161120/js/jquery.waypoints.min.js")
-addStyleJs("https://60.205.202.147/static/countup.js")
+addStyleJs("https://417600121.github.io/konggang/lib/countup.js")
 $(document).ready(function () {
     const option={
         delay: 10,
